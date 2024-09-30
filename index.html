@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Интересная страница по БЭМ</title>
+</head>
+<body>
+
+  <!-- Блок header -->
+  <header class="header">
+    <div class="header__content">
+      <h1 class="header__title">Добро пожаловать на сайт по БЭМ!</h1>
+      <p class="header__subtitle">Здесь вы узнаете, что такое БЭМ и как его применять.</p>
+    </div>
+  </header>
+
+  <!-- Блок main -->
+  <main class="main">
+    <!-- Блок секции с информацией о БЭМ -->
+    <section class="info">
+      <h2 class="info__title">Что такое БЭМ?</h2>
+      <p class="info__text">БЭМ — это методология, которая помогает разработчикам структурировать и переиспользовать код на веб-страницах. Суть БЭМ в том, чтобы разбивать страницу на блоки, элементы и модификаторы, что позволяет легко управлять большими проектами.</p>
+    </section>
+
+    <!-- Блок с карточками примеров -->
+    <section class="examples">
+      <h2 class="examples__title">Примеры блоков по БЭМ</h2>
+      
+      <!-- Первая карточка -->
+      <article class="card">
+        <h3 class="card__title">Карточка 1</h3>
+        <p class="card__text">Это пример карточки, которая построена по методологии БЭМ. Все элементы имеют соответствующие имена классов.</p>
+        <button class="card__button">Подробнее</button>
+      </article>
+
+      <!-- Вторая карточка -->
+      <article class="card">
+        <h3 class="card__title">Карточка 2</h3>
+        <p class="card__text">Благодаря БЭМ можно легко изменять внешний вид компонентов. Например, эта карточка может быть оформлена по-другому.</p>
+        <button class="card__button card__button_theme_dark">Подробнее</button>
+      </article>
+
+      <!-- Третья карточка -->
+      <article class="card">
+        <h3 class="card__title">Карточка 3</h3>
+        <p class="card__text">Карточки можно переиспользовать на разных страницах сайта, не изменяя их структуру.</p>
+        <button class="card__button card__button_active">Подробнее</button>
+      </article>
+    </section>
+  </main>
+
+  <!-- Блок footer -->
+  <footer class="footer">
+    <p class="footer__text">© 2024 Все права защищены</p>
+  </footer>
+
+</body>
+</html>
